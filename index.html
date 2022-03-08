@@ -13,6 +13,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
     body{
       font-family: 'Outfit', sans-serif;
+      background: hsl(212, 45%, 89%);
     }
 
     .card{
@@ -28,7 +29,8 @@
 
     img{
       padding: 10px;
-      max-width: 250px;
+    /* max-width: 250px; */
+      width: 93%;
       /* border: 5px solid transparent; */
       border-radius: 20px;
     }
@@ -37,7 +39,7 @@
       max-width: 250px;
       padding: 0px 20px;
       text-align: center;
-
+      margin-bottom: 30px;
     }
 
     /* .h3{
@@ -51,6 +53,13 @@
       opacity: 70%;
       font-size: 15px;
     }
+
+   @media only screen (max-width: 350){
+     img{
+       max-width: 100px;
+       width: 80%;
+     }
+   } 
 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
